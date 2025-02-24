@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev-server": "npx parcel src/*.html"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "parcel": "^2.13.3",
+    "typescript": "^5.7.3"
+  }
+}
