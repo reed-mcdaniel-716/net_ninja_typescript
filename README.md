@@ -8,38 +8,41 @@
 - for code compilation and bundling we use [Parcel](https://parceljs.org/docs/)
 
 ## Repo structure
-- tree generated using `tree -L 3 -I node_modules . >> README.md`
+- tree generated using `tree -L 3 -I 'node_modules|dist|.parcel-cache' . >> README.md`
+
+
 .
 ├── README.md
 ├── basics
-│   ├── dist
-│   │   └── index.js
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── src
 │   │   └── index.ts
 │   └── tsconfig.json
 ├── csv_writer
-│   ├── dist
-│   │   └── index.js
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── payments.csv
 │   ├── src
 │   │   └── index.ts
 │   └── tsconfig.json
-└── csv_writer_generics
-    ├── dist
-    │   ├── EmployeeWriter.js
-    │   ├── PaymentWriter.js
-    │   └── index.js
+├── csv_writer_generics
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── payment.csv
+│   ├── src
+│   │   ├── EmployeeWriter.ts
+│   │   ├── PaymentWriter.ts
+│   │   └── index.ts
+│   └── tsconfig.json
+└── pizza_shop_menu
     ├── package-lock.json
     ├── package.json
-    ├── payment.csv
     ├── src
-    │   ├── EmployeeWriter.ts
-    │   ├── PaymentWriter.ts
-    │   └── index.ts
+    │   ├── create.html
+    │   ├── index.html
+    │   ├── styles
+    │   └── ts
     └── tsconfig.json
 
-10 directories, 22 files
+11 directories, 22 files
