@@ -9,8 +9,7 @@
 
 ## Repo structure
 - tree generated using `tree -L 3 -I 'node_modules|dist|.parcel-cache' . >> README.md`
-
-
+```
 .
 ├── README.md
 ├── basics
@@ -46,3 +45,4 @@
     └── tsconfig.json
 
 11 directories, 22 files
+```
