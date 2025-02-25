@@ -11,7 +11,7 @@
   - to use: `npm run dev-server`
 
 ## Repo structure
-- tree generated using `tree -L 6 -I 'node_modules|dist|.parcel-cache' . >> README.md`
+- tree generated using `tree -L 6 -I 'node_modules|dist|.parcel-cache|.next' . >> README.md`
 
 ```
 .
@@ -47,11 +47,6 @@
 │   ├── package.json
 │   ├── postcss.config.mjs
 │   ├── public
-│   │   ├── file.svg
-│   │   ├── globe.svg
-│   │   ├── next.svg
-│   │   ├── vercel.svg
-│   │   └── window.svg
 │   ├── src
 │   │   └── app
 │   │       ├── about
@@ -83,5 +78,5 @@
     │           └── DataResource.ts
     └── tsconfig.json
 
-19 directories, 49 files
+19 directories, 44 files
 ```
