@@ -38,6 +38,33 @@
 │   │   ├── PaymentWriter.ts
 │   │   └── index.ts
 │   └── tsconfig.json
+├── next_js
+│   ├── README.md
+│   ├── eslint.config.mjs
+│   ├── next-env.d.ts
+│   ├── next.config.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   ├── public
+│   │   ├── file.svg
+│   │   ├── globe.svg
+│   │   ├── next.svg
+│   │   ├── vercel.svg
+│   │   └── window.svg
+│   ├── src
+│   │   └── app
+│   │       ├── about
+│   │       │   └── page.tsx
+│   │       ├── components
+│   │       │   └── PostCard.tsx
+│   │       ├── favicon.ico
+│   │       ├── globals.css
+│   │       ├── layout.tsx
+│   │       └── page.tsx
+│   ├── tailwind.config.ts
+│   ├── tsconfig.json
+│   └── types.d.ts
 └── pizza_shop_menu
     ├── db.json
     ├── package-lock.json
@@ -56,5 +83,5 @@
     │           └── DataResource.ts
     └── tsconfig.json
 
-13 directories, 28 files
+19 directories, 49 files
 ```
