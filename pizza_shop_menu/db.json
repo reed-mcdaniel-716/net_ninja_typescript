@@ -1,0 +1,25 @@
+{
+	"pizzas": [
+		{
+			"title": "Pizza Portabello",
+			"description": "Perfect pizza for mushroom lovers.",
+			"toppings": ["mushrooms", "mozzarella", "gorganzola", "garlic", "basil"],
+			"price": 22,
+			"id": 1
+		},
+		{
+			"title": "Margherita",
+			"description": "Traditional pizza with premium ingredients.",
+			"toppings": ["mozzarella", "tomato sauce", "basil"],
+			"price": 18,
+			"id": 2
+		},
+		{
+			"title": "Pizza San Vito",
+			"description": "Delicious pizza for those who like soppressata.",
+			"toppings": ["soppressata", "artichokes", "olives", "mozzarella", "romano cheese", "tomato sauce", "oil"],
+			"price": 22,
+			"id": 3
+		}
+	]
+}

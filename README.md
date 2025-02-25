@@ -4,11 +4,15 @@
 ## Running code
 - to run files without `tsconfig.json`:  `npx tsc {file_name}.ts`
 - in directories with `tsconfig.json` run the following: `npx tsc --watch`
-  - in a separte terminal run `node --watch  dist/index.js`
+  - in a separate terminal run `node --watch  dist/index.js`
+- to serve JSON data as though it were a backend API we use [json-server](https://github.com/typicode/json-server?tab=readme-ov-file)
+  - to serve the data: `npm run db-server`
 - for code compilation and bundling we use [Parcel](https://parceljs.org/docs/)
+  - to use: `npm run dev-server`
 
 ## Repo structure
-- tree generated using `tree -L 3 -I 'node_modules|dist|.parcel-cache' . >> README.md`
+- tree generated using `tree -L 6 -I 'node_modules|dist|.parcel-cache' . >> README.md`
+
 ```
 .
 ├── README.md
@@ -35,14 +39,22 @@
 │   │   └── index.ts
 │   └── tsconfig.json
 └── pizza_shop_menu
+    ├── db.json
     ├── package-lock.json
     ├── package.json
     ├── src
     │   ├── create.html
     │   ├── index.html
     │   ├── styles
+    │   │   └── index.css
     │   └── ts
+    │       ├── create.ts
+    │       ├── index.ts
+    │       ├── models
+    │       │   └── Pizza.ts
+    │       └── services
+    │           └── DataResource.ts
     └── tsconfig.json
 
-11 directories, 22 files
+13 directories, 28 files
 ```

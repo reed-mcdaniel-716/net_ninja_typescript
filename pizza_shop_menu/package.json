@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "dev-server": "npx parcel src/*.html"
+    "dev-server": "npx parcel src/*.html",
+    "db-server": "npx json-server --port 4000 --watch db.json"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",
+    "json-server": "^1.0.0-beta.3",
     "parcel": "^2.13.3",
     "typescript": "^5.7.3"
   }
