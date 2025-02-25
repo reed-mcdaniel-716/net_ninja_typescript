@@ -1,5 +1,5 @@
 # Net Ninja Typescript Masterclass
-- following along with the Net Ninja Typescript Masterclass ((GitHub)[https://github.com/iamshaunjp/typescript-masterclass])
+- following along with the Net Ninja Typescript Masterclass ([GitHub](https://github.com/iamshaunjp/typescript-masterclass))
 
 ## Running code
 - to run files without `tsconfig.json`:  `npx tsc {file_name}.ts`
