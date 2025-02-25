@@ -24,7 +24,8 @@ export class DataResource<T> {
       body: JSON.stringify(data),
       headers: { 'Content-Type': 'application/json' }
     });
-    return resp.json();
+
+    return resp;
   }
 
 }

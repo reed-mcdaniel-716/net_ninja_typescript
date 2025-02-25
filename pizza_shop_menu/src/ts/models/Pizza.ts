@@ -5,7 +5,6 @@ export interface PizzaProps {
   description: string;
   toppings: string[];
   price: number;
-  id: number;
 }
 
 const PIZZAS_ENDPOINT = 'http://localhost:4000/pizzas';
